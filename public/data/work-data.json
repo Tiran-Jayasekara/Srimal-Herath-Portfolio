@@ -1,0 +1,89 @@
+{
+  "workData": [
+    {
+      "image": "/images/work/1.png",
+      "title": "Book Shop Website Template",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+    {
+      "image": "/images/work/2.png",
+      "title": "Traveler Website Template",
+      "client": "John Honnai",
+      "slug": "mobile-app-design"
+    },
+    {
+      "image": "/images/work/3.png",
+      "title": "Car Rental mobile App",
+      "client": "John Honnai",
+      "slug": "fashion-website-template"
+    },
+    
+    {
+      "image": "/images/work/5.png",
+      "title": "SSK Water Filter Website",
+      "client": "Shehan sampath",
+      "slug": "mobile-app-design"
+    },
+        {
+      "image": "/images/work/7.jpg",
+      "title": "XiTeb UI Projects",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+        {
+      "image": "/images/work/8.png",
+      "title": "AT Digital UI Projects",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+        {
+      "image": "/images/work/9.png",
+      "title": "Empite UI Projects",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+        {
+      "image": "/images/work/11.png",
+      "title": "Country Comparison Application",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+        {
+      "image": "/images/work/12.png",
+      "title": "PeerWave E-commerce PWA",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+        {
+      "image": "/images/work/13.png",
+      "title": "Weather App",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+        {
+      "image": "/images/work/14.png",
+      "title": "Dogo Tales Blog Site",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+        {
+      "image": "/images/work/15.png",
+      "title": "Bee Blogger",
+      "client": "John Honnai",
+      "slug": "mug-sticker-designing"
+    },
+    {
+      "image": "/images/work/4.jpg",
+      "title": "Sign Language",
+      "client": "John Honnai",
+      "slug": "book-cover-design"
+    },
+    {
+      "image": "/images/work/6.jpg",
+      "title": "Smart City PWA",
+      "client": "John Honnai",
+      "slug": "book-cover-design"
+    }
+  ]
+}

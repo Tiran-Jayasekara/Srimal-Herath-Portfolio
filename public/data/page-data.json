@@ -1,0 +1,104 @@
+{
+  "contactBar": {
+    "contactItems": [
+      {
+        "type": "email",
+        "label": "srimalherath991@gmail.com",
+        "icon": "/images/icon/mail-icon.svg",
+        "link": "mailto:srimalherath991@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "0703930877/0761481687",
+        "icon": "/images/icon/call-icon.svg",
+        "link": "tel:0703930877"
+      }
+
+    ],
+    "socialItems": [
+      {
+        "platform": "twitter",
+        "icon": "/images/icon/x.svg",
+        "link": "https://x.com/srimalherath962"
+      },
+      {
+        "platform": "linkedin",
+        "icon": "/images/icon/linkedin-icon.svg",
+        "link": "https://www.linkedin.com/in/srimal-herath-43903a3451"
+      },
+      {
+        "platform": "facebook",
+        "icon": "/images/icon/facebook-icon.svg",
+        "link": "https://web.facebook.com/profile.php?id=61571599317847"
+      }
+    ]
+  },
+  "educationData": {
+    "education": [
+      {
+        "title": "B.I.C.T. in Information and Communication Technology (2019)",
+        "description": "Specialized in Software Technologies at South Eastern University of Sri Lanka."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Figma",
+        "icon": "/images/home/education-skill/figma-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Photoshop",
+        "icon": "/images/home/education-skill/photoshop-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Sketch",
+        "icon": "/images/home/education-skill/sketch-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Adobe XD",
+        "icon": "/images/home/education-skill/adobe-icon.svg",
+        "rating": 4
+      },
+      {
+        "name": "Framer",
+        "icon": "/images/home/education-skill/framer-icon.svg",
+        "rating": 5
+      },
+      {
+        "name": "Invasion",
+        "icon": "/images/home/education-skill/invision-icon.svg",
+        "rating": 3
+      }
+    ]
+  },
+  "contactLinks": {
+    "socialLinks": [
+      {
+        "title": "Dribble",
+        "href": "/"
+      },
+      {
+        "title": "Facebook",
+        "href": "/"
+      },
+      {
+        "title": "LinkedIn",
+        "href": "/"
+      }
+    ],
+    "contactInfo": [
+      {
+        "type": "email",
+        "label": "tiran.jayasekara.999@gmail.com",
+        "link": "mailto:tiran.jayasekara.999@gmail.com"
+      },
+      {
+        "type": "phone",
+        "label": "071-4055143",
+        "link": "tel:0714055143"
+      }
+    ]
+  }
+}
