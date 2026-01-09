@@ -12,7 +12,7 @@ const certificates = [
     image: "/images/certificates/auto.jpg",
   },
   {
-    title: "English  Certification",
+    title: "Advanced English Certificate",
     issuer: "British way English Academy",
     year: "2023",
     image: "/images/certificates/english.jpg",
@@ -71,7 +71,7 @@ const CertificatesSection = () => {
               </h2>
                <p className="text-xl text-primary font-medium">( 04 )</p>
             </motion.div>
-            
+
             <motion.div
               variants={staggerContainer}
               initial="hidden"
