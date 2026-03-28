@@ -7,34 +7,28 @@ import { motion, Variants, AnimatePresence } from "framer-motion";
 
 const certificates = [
   {
-    title: "Automation Testing Certification",
-    issuer: "Imperial Institute",
-    year: "2024",
-    image: "/images/certificates/automation testing.jpeg",
+    title: "Introduction to Cybersecurity",
+    issuer: "CISCO",
+    year: "2020",
+    image: "/images/certificates/cisco1.png",
   },
   {
-    title: "Advanced English Certificate",
-    issuer: "British way English Academy",
-    year: "2017",
-    image: "/images/certificates/english.jpeg",
+    title: "Networking Essentials",
+    issuer: "CISCO",
+    year: "2020",
+    image: "/images/certificates/cisco2.png",
   },
   {
-    title: "Character Certificate",
-    issuer: "Kingswood College Kandy",
-    year: "2017",
-    image: "/images/certificates/character.jpeg",
+    title: "Networking Academy Learn-A-Thon 2020",
+    issuer: "CISCO",
+    year: "2020",
+    image: "/images/certificates/cisco3.png",
   },
   {
-    title: "BSC Hons Software Engineering Degree",
-    issuer: "Cardiff Metropolitan University",
+    title: "BICT Hons Software Engineering Degree",
+    issuer: "South Eastern University of Sri Lanka",
     year: "2022",
-    image: "/images/certificates/BSChons-software.jpeg",
-  },
-  {
-    title: "Higher Diploma and Diploma Software Engineering",
-    issuer: "National Institute of Business Management",
-    year: "2019",
-    image: "/images/certificates/high-diploma.jpeg",
+    image: "/images/certificates/degree.jpeg",
   },
 ];
 

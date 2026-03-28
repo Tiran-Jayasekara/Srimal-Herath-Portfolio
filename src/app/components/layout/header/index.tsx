@@ -6,7 +6,7 @@ import Logo from "../logo";
 const Header = () => {
   const handleDownloadPDF = () => {
     const googleDriveDirectLink =
-      "https://drive.google.com/file/d/100EmVpkjbPI6DWqkLrpkNJjx8KRB5LZZ/view?usp=sharing"
+      "https://drive.google.com/file/d/1nKZqGYA3aJy4tFA8yn9g05ing4PTA1lJ/view?usp=sharing"
     window.open(googleDriveDirectLink, "_blank");
   };
 

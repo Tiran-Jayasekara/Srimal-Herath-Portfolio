@@ -3,33 +3,29 @@
     "contactItems": [
       {
         "type": "email",
-        "label": "srimalherath991@gmail.com",
+        "label": "tiran.jayasekara.999@gmail.com",
         "icon": "/images/icon/mail-icon.svg",
-        "link": "mailto:srimalherath991@gmail.com"
+        "link": "mailto:tiran.jayasekara.999@gmail.com"
       },
       {
         "type": "phone",
-        "label": "0703930877/0761481687",
+        "label": "0714055143/0757026373",
         "icon": "/images/icon/call-icon.svg",
-        "link": "tel:0703930877"
+        "link": "tel:0714055143"
       }
 
     ],
     "socialItems": [
-      {
-        "platform": "twitter",
-        "icon": "/images/icon/x.svg",
-        "link": "https://x.com/srimalherath962"
-      },
+      
       {
         "platform": "linkedin",
         "icon": "/images/icon/linkedin-icon.svg",
-        "link": "https://www.linkedin.com/in/srimal-herath-43903a3451"
+        "link": "https://www.linkedin.com/in/tiran-jayasekara-50796028b"
       },
       {
         "platform": "facebook",
         "icon": "/images/icon/facebook-icon.svg",
-        "link": "https://web.facebook.com/profile.php?id=61571599317847"
+        "link": "https://web.facebook.com/tiran.jayasekara.16"
       }
     ]
   },

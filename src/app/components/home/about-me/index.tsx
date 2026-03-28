@@ -44,7 +44,7 @@ const AboutMe = () => {
         </motion.div>
 
         <div className="relative z-10">
-          <div className="container"> 
+          <div className="container">
             <motion.div
               initial="hidden"
               whileInView="visible"
@@ -80,24 +80,28 @@ const AboutMe = () => {
                 variants={staggerContainer}
                 className="w-full lg:max-w-2xl flex-1"
               >
-                <motion.p variants={fadeInUp} className="leading-relaxed justify-center lg:justify-start lg:text-left ">
-                  I am a dedicated and results-driven Senior Software Engineer
-                  with over 4 years of professional experience in full-stack
-                  application development. My journey has taken me from building
-                  specialized library systems to architecting complex,
-                  enterprise-level ERP solutions (like Ventura and Imanage). I
-                  specialize in building scalable, high-concurrency applications
-                  using a versatile tech stack including Next.js, Vue.js,
-                  NestJS, and .NET Core. With a deep understanding of both SQL
-                  (MySQL, MS SQL) and NoSQL (MongoDB) databases, I focus on
-                  designing robust architectures that are both maintainable and
-                  secure. Beyond development, I am highly proficient in Quality
-                  Assurance and Automation Testing, utilizing tools like
-                  Selenium, Cypress, and JMeter to ensure production-grade
-                  reliability. I am passionate about the entire software
-                  development lifecycle—from initial logic to cloud
-                  deployment—and I am continuously focused on pushing the
-                  boundaries of what web and mobile technologies can achieve.
+                <motion.p
+                  variants={fadeInUp}
+                  className="leading-relaxed justify-center lg:justify-start lg:text-left "
+                >
+                  I am a passionate and results-driven Software Engineer with
+                  over 4 years of experience in building scalable,
+                  high-performance applications. I specialize in full-stack
+                  development and system architecture, with a strong focus on
+                  clean code, maintainability, and modern engineering practices.
+                  My expertise spans across technologies like React, Next.js,
+                  NestJS, Express, PostgreSQL, and MongoDB, along with designing
+                  microservices-based architectures and managing monorepo
+                  environments. Beyond development, I am deeply involved in
+                  cloud and DevOps practices, working with AWS services such as
+                  S3, CloudFront, and API Gateway, along with infrastructure
+                  automation using Terraform. I also implement efficient CI/CD
+                  pipelines using GitHub Actions and manage deployments across
+                  platforms like Hostinger and cloud environments. I am
+                  passionate about the entire software development
+                  lifecycle—from designing system architecture to deployment and
+                  optimization—and continuously strive to build reliable,
+                  scalable, and production-ready applications.
                 </motion.p>
 
                 <motion.div
@@ -107,7 +111,7 @@ const AboutMe = () => {
                   {[
                     { count: "04", label: "Years of experience" },
                     { count: "10+", label: "Happy Clients" },
-                    { count: "20+", label: "Project Completed" },
+                    { count: "30+", label: "Project Completed" },
                   ].map((item, i) => (
                     <motion.div key={i} variants={fadeInUp}>
                       <h3 className="text-2xl font-bold">{item.count}</h3>

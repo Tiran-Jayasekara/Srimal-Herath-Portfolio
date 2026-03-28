@@ -10,8 +10,8 @@ const bricolageGrotesque = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  title: "Srimal Randika Herath - Portfolio",
-  description: "A professional portfolio website showcasing the skills and projects of Srimal Herath.",
+  title: "Tiran Jayasekara - Portfolio",
+  description: "A professional portfolio website showcasing the skills and projects of Tiran Jayasekara.",
 };
 
 export default function RootLayout({

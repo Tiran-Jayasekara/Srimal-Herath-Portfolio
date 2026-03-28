@@ -6,57 +6,63 @@ import { motion, Variants } from "framer-motion";
 
 const LatestWork = () => {
   const projects = [
-    {
-      title: "IManage ERP System",
-      client: "Iteq Solutions pvt Ltd",
-      link: "https://github.com/randika-herath991/Imanage-ERP-SYSTEM-Frontend-NextJS-Backend-ExpressJS-MYSQL-Authentication.git",
-      tech: "Next.js, NestJS, MySQL",
-      image: "/images/projects/imanage-erp-system.jpeg",
-    },
-    {
-      title: "Hive ERP System",
-      client: "Iteq Solutions pvt Ltd",
-      link: "https://github.com/randika-herath991/HIVE-SYSTEM-ERP-Frontend-VueJS.git",
-      tech: "Vue.js, Node.js, MySQL",
-      image: "/images/projects/hive-erp.jpeg",
-    },
-    {
-      title: "Journey Mapper Traveling Application",
-      client: "Personal Project",
-      link: "https://github.com/randika-herath991/SRIMAL-Journey-Mapper-Frontend-ReactJS-Backend-ExpressJS-MYSQL.git",
-      tech: "Vue.js, Node.js, MySQL",
-      image: "/images/projects/travelling.jpeg",
-    },
-    {
-      title: "ABC Bank Management",
-      client: "Personal Project",
-      link: "https://github.com/randika-herath991/ABC-Bank-Manage-Authentication-NodeJS-ReactJS-MomentJS-TailwindCSS-Frontend.git",
-      tech: "React, Spring Boot, MySQL",
-      image: "/images/projects/abc-bank.jpeg",
-    },
-    {
-      title: "Arduino Bluetooth Fan Controlling System",
-      client: "Personal Project",
-      link: "https://github.com/randika-herath991/Bluetooth-Fan-Controlling-System-Arduino.git",
-      tech: "Arduino, Bluetooth Module",
-      image: "/images/projects/arduino.jpeg",
-    },
-    {
-      title: "Traffic Sign Classify Machine Learning Application",
-      client: "Personal Project",
-      link: "https://github.com/randika-herath991/Traffic-Sign-Classify-Application-AI-ML-Python.git",
-      tech: "Python, TensorFlow, Keras",
-      image: "/images/projects/traffic-sign.jpeg",
-    },
-    // {
-    //   title: "Ventura ERP System",
-    //   client: "Inspiring Future Solutions",
-    //   link: "https://github.com/randika-herath991",
-    //   tech: "React, Node.js, MongoDB",
-    //   image: "/images/projects/ventura.png",
-    // },
-  ];
-
+  {
+    title: "Bee Tales Blogger",
+    client: "Private Client",
+    link: "https://github.com/Tiran-Jayasekara/BeeBlog",
+    tech: "React.js",
+    image: "/images/projects/bee.png",
+  },
+  {
+    title: "PeerWave Fashion",
+    client: "PeerWave",
+    link: "https://www.linkedin.com/in/tiran-jayasekara-50796028b/overlay/Project/149086670/treasury/?profileId=ACoAAEZxRNcBMdx14PwgB68vL3lQZ_03nBkOx2o",
+    tech: "Next.js, Node.js, Express.js, MongoDB, PWA",
+    image: "/images/projects/peerwave.png",
+  },
+  {
+    title: "Doggo Tales Blogger",
+    client: "Personal Project",
+    link: "https://github.com/Tiran-Jayasekara/DoggoTales",
+    tech: "Next.js, Tailwind CSS, Ant Design",
+    image: "/images/projects/doggotales.png",
+  },
+  {
+    title: "SSK Water Filter System",
+    client: "SSK Water Filters",
+    link: "https://github.com/Tiran-Jayasekara/SSK_Water?tab=readme-ov-file",
+    tech: "React.js, Tailwind CSS, Ant Design",
+    image: "/images/projects/sskwater.png",
+  },
+  {
+    title: "Sri Lankan Sign Language Translator",
+    client: "Research Project",
+    link: "https://github.com/Tiran-Jayasekara/Research",
+    tech: "Python, OpenCV, CNN, Machine Learning",
+    image: "/images/projects/sign.png",
+  },
+  {
+    title: "Traveler Website",
+    client: "Personal Project",
+    link: "https://www.linkedin.com/in/tiran-jayasekara-50796028b/overlay/Project/214111408/treasury?profileId=ACoAAEZxRNcBMdx14PwgB68vL3lQZ_03nBkOx2o",
+    tech: "Laravel",
+    image: "/images/projects/traveller.png",
+  },
+  {
+    title: "Vehicle Rental Mobile App",
+    client: "Personal Project",
+    link: "https://github.com/Tiran-Jayasekara/Vehicle-Rental-Mobile-Application",
+    tech: "Flutter",
+    image: "/images/projects/vehicle.png",
+  },
+  {
+    title: "Udadumbara Information Center",
+    client: "Personal Project",
+    link: "https://www.linkedin.com/in/tiran-jayasekara-50796028b/",
+    tech: "Next.js, PWA, Firebase, Express.js, MongoDB",
+    image: "/images/projects/udadumbara.png",
+  },
+];
   const cardVariants: Variants = {
     hidden: { opacity: 0, scale: 0.95, y: 20 },
     visible: {

@@ -7,38 +7,35 @@ const ExperienceSec = () => {
   const experiences = [
     {
       year: "2025 - Present",
-      title: "Senior Software Engineer",
-      company: "Iteq Solutions pvt Ltd",
+      title: "Software Engineer",
+      company: "Hash Baze",
       type: "Full-time",
-      description: "Involved in Imanage ERP and Hive ERP systems. Working with a modern stack including Next.js, Vue.js, NestJS, and MySQL. Responsible for architecture and integration using Swagger and Git."
+      description:
+        "Building scalable full-stack applications and distributed systems using modern technologies. Designing and implementing microservices with NestJS and Express, and developing performant frontends with React and Next.js. Working with PostgreSQL and MongoDB, and deploying cloud-native solutions using AWS (S3, CloudFront, API Gateway). Managing infrastructure with Terraform and implementing CI/CD pipelines using GitHub Actions."
     },
     {
       year: "2024",
       title: "Associate Software Engineer",
-      company: "Inspiring Future Solutions pvt Ltd",
+      company: "Hash Baze",
       type: "Full-time",
-      description: "Contributed to the Ventura ERP System and Virtusal Web System. Developed features using Angular, .NET Framework, and MongoDB."
+      description:
+        "Developed and maintained high-performance web applications and backend services. Built RESTful APIs, optimized database queries, and improved system scalability. Gained hands-on experience with microservices architecture, monorepo structures, and cloud deployments."
     },
     {
       year: "2023",
-      title: "Associate Software Engineer",
-      company: "Gravity Colombo pvt Ltd",
-      type: "Full-time",
-      description: "Developed Paid Up Web System and Journey Mapper System using Next.js, Express.js, and Node.js. Managed local environments with Xampp and API testing via Postman."
+      title: "Freelance Software Engineer",
+      company: "Peer Wave",
+      type: "Part-time",
+      description:
+        "Delivered full-stack web applications using the MERN stack. Handled complete project lifecycles including development, deployment, and maintenance. Set up CI/CD pipelines and deployed applications using Hostinger and cloud environments."
     },
     {
       year: "2022",
-      title: "Trainee Software Engineer",
-      company: "John Keells IT",
-      type: "Full-time",
-      description: "Worked on SMART Time Tracker, SMART Web Portal, and Compliance Monitoring Systems. Tech stack included Angular, ASP.NET, MS SQL, and Azure cloud services."
-    },
-    {
-      year: "2021",
       title: "Intern Software Developer",
-      company: "EMJ Institute Pvt Ltd",
+      company: "Elzian Agro",
       type: "Internship",
-      description: "Developed the EMJ Library Management System using PHP, HTML, CSS, and JavaScript."
+      description:
+        "Worked as a full-stack developer using React, Next.js, Node.js, Express, MongoDB, and SQL. Built internal tools and gained strong fundamentals in application development and system design."
     }
   ];
 

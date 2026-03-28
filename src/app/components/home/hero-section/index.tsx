@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
 
-const name = "Srimal Randika Herath";
+const name = "Tiran Jayasekara";
 
 const containerVariants: Variants = {
   hidden: { opacity: 1 },
@@ -81,7 +81,7 @@ const HeroSection = () => {
                     initial="hidden"
                     animate="visible"
            
-                    className="inline-flex flex-wrap justify-center lg:justify-start text-slate-900 [perspective:1000px]"
+                    className="inline-flex flex-wrap justify-center lg:justify-start text-slate-800 perspective:1000px"
                   >
                     {name.split(" ").map((word, wordIndex) => (
                       <span key={wordIndex} className="inline-block whitespace-nowrap">
@@ -107,11 +107,10 @@ const HeroSection = () => {
             <p className="text-slate-600 text-lg leading-relaxed max-w-xl mx-auto lg:mx-0">
               I'm a{" "}
               <span className="text-rose-400 underline decoration-rose-200">
-                Senior Software Engineer
+                Software Engineer
               </span>{" "}
-              based in Kandy, Sri Lanka. I specialize in architecting
-              high-performance ERP systems and scalable full-stack applications
-              through clean code and modern engineering practices.
+              based in Sri Lanka, specializing in developing scalable applications and
+              high-performance systems using clean code principles and modern technologies.
             </p>
           </motion.div>
 
@@ -124,8 +123,8 @@ const HeroSection = () => {
           >
             <div className="relative z-10 overflow-hidden rounded-[2rem] shadow-2xl max-w-[400px] lg:max-w-none mx-auto">
               <Image
-                src={getImgPath("/images/home/banner/profile3.jpeg")}
-                alt="Srimal Herath Profile"
+                src={getImgPath("/images/home/banner/profile.jpg")}
+                alt="Tiran Jayasekara Profile"
                 width={600}
                 height={600}
                 className="w-full h-auto object-cover"

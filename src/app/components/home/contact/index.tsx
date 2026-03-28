@@ -39,8 +39,8 @@ const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
 
   emailjs.send(
-    'service_r23qjix', 
-    'template_fhi35cb', 
+    'service_pu83cvs', 
+    'template_vbf00ne', 
     {
       from_name: formData.name,
       from_email: formData.email,
@@ -48,7 +48,7 @@ const handleSubmit = async (e: React.FormEvent) => {
       message: formData.message,
       location: formData.location
     },
-    'l6v75i70BwEPtO2mI'
+    'xGJWqQYz6fRkk7ThV'
   )
   .then(() => {
     setSubmitted(true);
@@ -71,13 +71,13 @@ const handleSubmit = async (e: React.FormEvent) => {
     {
       icon: "M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
       label: "My Email:",
-      value: "srimalherath991@gmail.com ",
+      value: "tiran.jayasekara.999@gmail.com ",
       color: "bg-indigo-100 text-indigo-600"
     },
     {
       icon: "M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z",
       label: "Call Me Now:",
-      value: "070-3930877 / 076-1481687",
+      value: "0714055143 / 0757026373",
       color: "bg-violet-100 text-violet-600"
     }
   ];

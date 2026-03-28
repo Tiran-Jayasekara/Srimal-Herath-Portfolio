@@ -6,7 +6,14 @@ import {
   SiNextdotjs, SiVuedotjs, SiNestjs, SiExpress, SiAngular, SiReact, 
   SiSpringboot, SiDotnet, SiPhp, SiPython, SiOpenjdk, SiDjango, 
   SiSelenium, SiCypress, SiTestinglibrary,
-  SiMysql, SiMongodb, SiTypescript, SiTailwindcss, SiGit , SiJavascript  ,  
+  SiMysql, SiMongodb, SiTypescript, SiTailwindcss, SiGit , SiJavascript,
+  SiGithubactions,
+  SiHostinger,
+  SiMicrogenetics,
+  SiNx,
+  SiPostgresql,
+  SiTerraform,
+  SiAmazon
 } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 import { VscAzureDevops } from "react-icons/vsc";
@@ -26,84 +33,72 @@ import { SiApachejmeter } from "react-icons/si";
 const EducationSkills = () => {
   const education = [
     {
-      title: "BSc (Hons) in Software Engineering",
-      description: "Cardiff Metropolitan University",
+      title: "BICT (Hons) in Software Engineering",
+      description: "South Eastern University of Sri Lanka",
     },
     {
-      title: "Higher National Diploma in Software Engineering",
-      description: "NIBM (National Institute of Business Management)",
+      title: "GCE Advanced Level (Technology Stream)",
+      description: "Teldeniya Central College, Kandy",
     },
-    {
-      title: "GCE Advanced Level (Science Stream)",
-      description: "Kingswood College, Kandy",
-    }
   ];
 
   const skillCategories = [
-  {
-    label: "Languages",
-    items: [
-      { name: "TypeScript", icon: <SiTypescript className="text-[#3178C6]" /> },
-      { name: "JavaScript", icon: <SiJavascript className="text-[#F7DF1E]" /> },
-      { name: "PHP", icon: <SiPhp className="text-[#777BB4]" /> },
-      { name: "Python", icon: <SiPython className="text-[#3776AB]" /> },
-      { name: "Java", icon: <SiOpenjdk className="text-[#ED8B00]" /> },
-      { name: "C#", icon: <TbBrandCSharp className="text-[#239120]" /> },
-      { name: "HTML", icon: <FaHtml5 className="text-[#E34F26]" /> },
-      { name: "SQL / MS SQL", icon: <DiMsqlServer className="text-[#CC2927]" /> },
-      { name: "Oracle", icon: <SiOracle className="text-[#F80000]" /> },
-    ],
-  },
-  {
-    label: "Frameworks & Platforms",
-    items: [
-      { name: "Next.js", icon: <SiNextdotjs /> },
-      { name: "React", icon: <SiReact className="text-[#61DAFB]" /> },
-      { name: "Angular", icon: <SiAngular className="text-[#DD0031]" /> },
-      { name: "Vue.js", icon: <SiVuedotjs className="text-[#4FC08D]" /> },
-      { name: "NestJS", icon: <SiNestjs className="text-[#E0234E]" /> },
-      { name: "Express.js", icon: <SiExpress /> },
-      { name: "Node.js", icon: <FaNodeJs className="text-[#339933]" /> },
-      { name: ".NET Core / Framework", icon: <SiDotnet className="text-[#512BD4]" /> },
-      { name: "Spring Boot", icon: <SiSpringboot className="text-[#6DB33F]" /> },
-      { name: "Django", icon: <SiDjango className="text-[#092E20]" /> },
-    ],
-  },
-  {
-    label: "Databases",
-    items: [
-      { name: "MySQL", icon: <SiMysql className="text-[#4479A1]" /> },
-      { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> },
-      { name: "MS SQL Server", icon: <DiMsqlServer className="text-[#CC2927]" /> },
-      { name: "Oracle DB", icon: <SiOracle className="text-[#F80000]" /> },
-    ],
-  },
-  {
-    label: "Testing & QA",
-    items: [
-      { name: "Automation Testing", icon: <SiTestinglibrary /> },
-      { name: "Selenium", icon: <SiSelenium className="text-[#43B02A]" /> },
-      { name: "Cypress", icon: <SiCypress /> },
-      { name: "JMeter", icon: <SiApachejmeter /> },
-      { name: "Appium", icon: <SiAppium /> },
-      { name: "Cucumber", icon: <SiCucumber className="text-[#23D96C]" /> },
-      { name: "TestNG", icon: <SiTestinglibrary /> },
-    ],
-  },
-
-  {
-    label: "Tools & DevOps",
-    items: [
-      { name: "Azure", icon: <VscAzureDevops className="text-[#0078D4]" /> },
-      { name: "Swagger", icon: <SiSwagger className="text-[#85EA2D]" /> },
-      { name: "Postman", icon: <SiPostman className="text-[#FF6C37]" /> },
-      { name: "Git", icon: <SiGit className="text-[#F05032]" /> },
-      { name: "GitHub", icon: <SiGithub /> },
-      { name: "MS Power Apps", icon: <TiVendorMicrosoft className="text-[#737373]" /> },
-      { name: "Arduino", icon: <SiArduino className="text-[#00979D]" /> },
-    ],
-  },
-];
+    {
+      label: "Languages",
+      items: [
+        { name: "TypeScript", icon: <SiTypescript className="text-[#3178C6]" /> },
+        { name: "JavaScript", icon: <SiJavascript className="text-[#F7DF1E]" /> },
+        { name: "SQL", icon: <DiMsqlServer className="text-[#CC2927]" /> },
+        { name: "HTML / CSS", icon: <FaHtml5 className="text-[#E34F26]" /> },
+      ],
+    },
+    {
+      label: "Frontend",
+      items: [
+        { name: "React", icon: <SiReact className="text-[#61DAFB]" /> },
+        { name: "Next.js", icon: <SiNextdotjs /> },
+      ],
+    },
+    {
+      label: "Backend",
+      items: [
+        { name: "Node.js", icon: <FaNodeJs className="text-[#339933]" /> },
+        { name: "NestJS", icon: <SiNestjs className="text-[#E0234E]" /> },
+        { name: "Express.js", icon: <SiExpress /> },
+        { name: "Microservices", icon: <SiMicrogenetics /> },
+      ],
+    },
+    {
+      label: "Databases",
+      items: [
+        { name: "PostgreSQL", icon: <SiPostgresql className="text-[#336791]" /> },
+        { name: "MongoDB", icon: <SiMongodb className="text-[#47A248]" /> },
+      ],
+    },
+    {
+      label: "Cloud & DevOps",
+      items: [
+        { name: "AWS", icon: <SiAmazon className="text-[#FF9900]" /> },
+        { name: "S3", icon: <SiAmazon className="text-[#FF9900]" /> },
+        { name: "CloudFront", icon: <SiAmazon className="text-[#FF9900]" /> },
+        { name: "API Gateway", icon: <SiAmazon className="text-[#FF9900]" /> },
+        { name: "Terraform", icon: <SiTerraform className="text-[#7B42BC]" /> },
+        { name: "CI/CD", icon: <SiGithubactions className="text-[#2088FF]" /> },
+        { name: "GitHub Actions", icon: <SiGithubactions className="text-[#2088FF]" /> },
+        { name: "Hostinger", icon: <SiHostinger /> },
+      ],
+    },
+    {
+      label: "Architecture & Tools",
+      items: [
+        { name: "Monorepo", icon: <SiNx /> },
+        { name: "REST APIs", icon: <SiPostman className="text-[#FF6C37]" /> },
+        { name: "Git", icon: <SiGit className="text-[#F05032]" /> },
+        { name: "Postman", icon: <SiPostman className="text-[#FF6C37]" /> },
+        { name: "Swagger", icon: <SiSwagger className="text-[#85EA2D]" /> },
+      ],
+    },
+  ];
 
   const fadeInUp: Variants = {
     hidden: { opacity: 0, y: 20 },
